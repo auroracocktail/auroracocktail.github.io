@@ -9,8 +9,9 @@ mermaid: true
 
 ## what is a Dijkstra algorithm?
 
-Dijkstra algorithm is an algorithm to find the shortest paths from one specific node to all other nodes in a graph. the weights of the graph must be non-negative.
+Dijkstra algorithm is an algorithm to *find the shortest paths* from one specific node to all other nodes in a graph. the weights of the graph must be *non-negative*.
 
+```
 graph TD
   A["A"] -- "4" --> B["B"]
   A -- "8" --> C["C"]
@@ -23,3 +24,4 @@ graph TD
   F -- "9" --> J["J"]
   G -- "2" --> I
   H -- "3" --> J
+```
